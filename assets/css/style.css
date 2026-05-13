@@ -1,0 +1,7 @@
+.sidebar { width: 220px; min-height: calc(100vh - 56px); border-right: 1px solid #dee2e6; }
+.sidebar a { color: #333; text-decoration: none; border-radius: 6px; padding-left: 10px; }
+.sidebar a:hover { background:#e9ecef; }
+@media print {
+  .sidebar, nav, form, button { display:none !important; }
+  main { padding: 0 !important; }
+}

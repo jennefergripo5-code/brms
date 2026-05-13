@@ -1,0 +1,19 @@
+{
+    "name": "admin/brms",
+    "description": "composer require twilio/sdk",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Brms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeanierose Baril",
+            "email": "jeanierosebaril1@gmail.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^8.11",
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
